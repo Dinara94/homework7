@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Axios from "axios";
 import User from "./User";
 
-import "../../App";
+import "../../App.css";
 
 export default function UserList() {
   const [users, setUsers] = useState([]);

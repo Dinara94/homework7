@@ -1,43 +1,43 @@
 .navBar {
-  width: 50%;
-  margin: 300px auto;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+    width: 50%;
+    margin: 300px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
 
 .navBar_link {
-  font-size: 52px;
-  background: -webkit-linear-gradient(rgb(37, 12, 182), rgb(199, 63, 174));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 800;
-  cursor: pointer;
-  transform: 0.4s;
+    font-size: 52px;
+    background: -webkit-linear-gradient(rgb(37, 12, 182), rgb(199, 63, 174));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    cursor: pointer;
+    transform: 0.4s;
 }
 
 .navBar_link:hover {
-  background: -webkit-linear-gradient(rgb(199, 63, 174), rgb(37, 12, 182));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(rgb(199, 63, 174), rgb(37, 12, 182));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .wrapper {
-  width: 80%;
-  margin: 200px auto;
+    width: 80%;
+    margin: 100px auto;
 }
 
 .title {
-  margin: 50px 0 10px;
-  font-size: 35px;
-  font-weight: 600;
-  text-align: center;
-  background: -webkit-linear-gradient(rgb(37, 12, 182), rgb(199, 63, 174));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    margin: 50px 0;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(37, 12, 182), rgb(199, 63, 174));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }

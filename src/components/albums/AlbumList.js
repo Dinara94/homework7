@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Axios from "axios";
 import Album from "./Album";
 
-import "../../App";
+import "../../App.css";
 
 export default function AlbumList() {
   const [albums, setAlbums] = useState([]);
