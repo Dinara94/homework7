@@ -5,8 +5,8 @@ import "./User.css";
 export default function User({ user }) {
   return (
     <article className="user">
+      <div className="logo" />
       <div className="generalInfo">
-        <div className="logo" />
         <p className="name">{user.name}</p>
         <p className="username">
           {"Username: "}

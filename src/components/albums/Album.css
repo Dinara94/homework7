@@ -1,0 +1,94 @@
+.album {
+    position: relative;
+    margin: 0px auto 50px;
+    max-width: 250px;
+    width: 80%;
+    max-height: 250px;
+    height: 260px;
+    transition: opacity 0.2s ease-in;
+    overflow: hidden;
+    cursor: pointer
+}
+
+.album:first-of-type,
+.album:nth-of-type(4n+1) {
+    margin-left: 0px;
+}
+
+.album:nth-of-type(4n),
+.album:first-of-type {
+    margin-right: 0px;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.albumCover {
+width: 100%;
+height: 100%;
+transform: scale(1.0, 1.0);
+transition-duration: 0.5s;
+transition-timing-function: ease-in;
+cursor: pointer;
+background-image: url("../../img/album.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+.album:hover .albumCover {
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.album:hover .background {
+    transition: opacity 0.5s ease-out;
+    opacity: 0;
+}
+
+.album:hover .albumTitle {
+    color: #000;
+    transition: 0.5s;
+}
+
+.albumTitle {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.albumTitle::after {
+    content: "";
+    width: 70%;
+    height: 4px;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+}
+.album:first-of-type .albumTitle::after,
+.album:nth-of-type(4n+1) .albumTitle::after {
+    background-color: #63991d;
+}
+
+
+.album:nth-of-type(4n+2) .albumTitle::after {
+    background-color: #177a3c;
+}
+
+
+.album:nth-of-type(4n+3) .albumTitle::after {
+    background-color: #a83720;
+}
+
+.album:nth-of-type(4n) .albumTitle::after {
+    background-color: #8f1b4c;
+}

@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
 
+
 import "./Album.css";
 
-export default function Album( {album}) {
-
+export default function Album({ album }) {
   return (
-    <div className="album">
-
-    </div>
+    <article className="album">
+      <div className="albumCover" />
+      <div className="background" />
+      <p className="albumTitle">{album.title}</p>
+    </article>
   );
 }
