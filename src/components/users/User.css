@@ -1,0 +1,54 @@
+.user {
+    margin: 50px 10px;
+}
+
+.generalInfo {
+    height: 200px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url("../../../public/user.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.username {
+    margin: 10px 0;
+}
+
+.email,
+.phone,
+.address,
+.website,
+.zip {
+    margin-bottom: 10px;
+}
+
+.company {
+    margin: 20px 0;
+    height: 75px;
+    padding: 10px;
+    background-color: #e5e5e5;
+    border: 1px solid #979696;
+    border-radius: 10px;
+}
+
+.company p {
+margin-bottom: 10px;
+font-size: 14px;
+}
+
+.company .companyName {
+    font-size: 15px;
+    font-weight: 600;
+}
